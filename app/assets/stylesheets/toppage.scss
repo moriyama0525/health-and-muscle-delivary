@@ -1,16 +1,13 @@
 body{
   background-image: url('mediterranean-cuisine-2378758_1920.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.btn-position{
   position: relative;
-}
-
-.login-block-left{
-  position: absolute;
   top: 500px;
-  left: 200px;
-}
-
-.login-block-right{
-  position: absolute;
-  top: 500px;
-  right: 200px;
+  text-align: center;
 }
